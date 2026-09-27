@@ -1,0 +1,12 @@
+{
+  "python_version": "3.11",
+  "graphs": {
+    "app": "./my_agent/agent.py:app"
+  },
+  "dependencies": [
+    "langchain-ollama",
+    "langgraph",
+    "langchain-core"
+  ],
+  "env": ".env"
+}
